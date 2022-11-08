@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E202B;
+}
+.navbar-brand {
+  font-size: 18;
+  margin-left: 10px;
+}
+.brand-img .logo{
+width: 50%;
+height: 50%;
+margin-top: 15px;
+}
+
+
+
+.nav-item .active{
+    color: #09c !important;
+    border-color: #09c !important;
+}
+.nav-item {
+    padding:0 15 ;
+    transition: all .1s ease-in;
+    border-radius: 30rem;
+    border: solid transparent 2px;
+    color: #FFF !important;
+    margin-left: 15px;
+}
+.nav-item a{
+    color: #FFF !important;
+}
+
+.nav-item:hover{
+  border-color: #09c ;
+  color: #09c;
+}
+.hero{
+
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+.searchInput{
+   
+    background-color: #1E202B;
+    border-radius: 30rem;
+    border-color: #1E202B;
+    outline: none;
+    color: #FFF;
+}
+ 
+.searchBtn{
+    
+    border-radius: 30rem;
+    background-color: #09c;
+    top: 0;
+    padding:13px 40px;
+    top: 27px;
+    right: 11px;
+    transition: all 1s;
+}
+.searchBtn:hover{
+   background-color: #09c;
+}
+
+
+.weather-container{
+    transform: translate(0%,-120px);
+}
+
+
+
+.first,.third{
+  background-color: #323544 !important;
+}
+
+.second{
+    background-color: #262936 !important;
+  }
+  
+footer
+  {    background-color: #262936;
+      padding: 40px;
+}
+  .enterEmail
+  {
+      position: relative;
+  }
+  .enterEmail input
+  {
+      width: 100%;
+      background-color: #1e202b;
+      padding: 16px;
+      border: 1px transparent solid;
+      border-radius: 50px;
+  }
+  .emailBtn
+  {
+      background-color:#009ad8;
+      color: white;
+      border: 1px transparent solid;
+      border-radius: 50px;
+      padding: 10px 28px;
+      position: absolute;
+      left:99%;
+      top:50%;
+      transform: translate(-100%,-50%);
+  } 
+  .icons div:hover
+  {
+      color: white !important;
+      background-color: #009ad8;
+  }
+  .icons div
+  {
+      width: 40px;
+      height: 40px;
+      background-color:rgba(0, 0, 0, 0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px transparent solid;
+      border-radius: 50%;
+      font-size: 17px;
+      margin: 2px;
+      transition: all;
+      transition-duration: 0.2s;   
+  }
+  .icons div:hover i
+  {
+      color: white;
+  }
+  .icons i 
+  {
+      color: #009ad8;
+  }
